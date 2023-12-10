@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logesh Mini project</title>
+    <link rel="icon" type="image" href="./icons8-home-64.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <h1>Logesh Test project</h1>
+    <div>
+        <form id="myForm">
+            <label for="usernameInput">Username :</label>
+            <input type="text" id="usernameInput" placeholder="Name" required><br><br>
+            <label for="emailInput">Personal Email :</label>
+            <input type="text" id="emailInput" placeholder="Email" required><br><br>
+            <div id="inputfeils_location">
+                <h4>Location</h4>
+                <label for="locationIN">IN</label>
+                <input type="radio" id="locationIN" name="location" checked><br><br>
+                <label for="locationUK">UK</label>
+                <input type="radio" id="locationUK" name="location"><br><br>
+                <label for="locationUS">US</label>
+                <input type="radio" id="locationUS" name="location"><br><br>
+                <label for="locationCA">CA</label>
+                <input type="radio" id="locationCA" name="location"><br><br>
+                <input type="button" id="submit" class="submit_butn" value="Submit" onclick="displayinputdetails()">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
